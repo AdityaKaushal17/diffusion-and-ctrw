@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ctrw-alpha-lstm"
+version = "0.1.0"
+description = "Physics-based CTRW trajectory generation and LSTM regression for anomalous diffusion exponent alpha."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
